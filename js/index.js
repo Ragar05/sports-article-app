@@ -21,7 +21,6 @@ import { sportsArticles } from "./data/articleSportsData.js";
 
     sportsArticles.forEach((article) => {
         const item = createCardItem(article);
-
         cardsContainer.innerHTML += item;
     })
 })()
